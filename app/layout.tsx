@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-
+import Favicon from "./favicon.ico";
 const ericaOne = localFont({
   src: [
     {
@@ -15,7 +15,47 @@ const ericaOne = localFont({
 
 export const metadata: Metadata = {
   title: "Chuckle",
-  description: "Your daily dose of misery & $money",
+  description:
+    "Experience the future of SocialFi on Monad, where vines is alive, decentralized finance meets social engagement for secure, rewarding, and interactive community-driven experiences",
+  icons: {
+    icon: Favicon.src,
+    shortcut: Favicon.src,
+    apple: Favicon.src,
+    other: { rel: "apple-touch-icon-precomposed", url: Favicon.src },
+  },
+  keywords: ["Chuckles"],
+  openGraph: {
+    title: "Chuckles | SocialFi On Monad",
+    description:
+      "Experience the future of SocialFi on Monad, where vines is alive, decentralized finance meets social engagement for secure, rewarding, and interactive community-driven experiences",
+    images: [
+      {
+        url: "./public/banner/banner.png",
+        width: 1200,
+        height: 600,
+        type: "image/png",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+    siteName: "Functors",
+  },
+  twitter: {
+    title: "Chuckles | SocialFi On Monad",
+    description:
+      "Experience the future of SocialFi on Monad, where vines is alive, decentralized finance meets social engagement for secure, rewarding, and interactive community-driven experiences",
+    images: {
+      url: "./public/banner/banner.png",
+      width: 1200,
+      height: 600,
+      type: "image/png",
+      alt: "Chuckle Banner",
+    },
+    card: "player",
+    creator: "@chuckle",
+  },
+
+  category: "technology",
 };
 
 export default function RootLayout({
