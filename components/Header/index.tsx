@@ -2,9 +2,9 @@ import React from "react";
 import LogoIcon from "@/public/assets/logo.svg";
 const Header = () => {
   return (
-    <header className="bg-primary shadow-primary">
-      <div className="flex items-center justify-between">
-        <div className="flex items-center flex-row">
+    <header className="bg-primary shadow-primary p-4 md:p-0">
+      <div className="flex items-center justify-between flex-wrap">
+        <div className="flex items-center flex-row ">
           <LogoIcon />
           <p className="font-ericaOne text-[27px]">Chuckle</p>
         </div>

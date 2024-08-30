@@ -17,6 +17,7 @@ export const metadata: Metadata = {
   title: "Chuckle",
   description:
     "Experience the future of SocialFi on Monad, where vines is alive, decentralized finance meets social engagement for secure, rewarding, and interactive community-driven experiences",
+  metadataBase: new URL("https://chuckle.life"),
   icons: {
     icon: Favicon.src,
     shortcut: Favicon.src,
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
       "Experience the future of SocialFi on Monad, where vines is alive, decentralized finance meets social engagement for secure, rewarding, and interactive community-driven experiences",
     images: [
       {
-        url: "./public/banner/banner.png",
+        url: "https://chuckle.life/banner/banner.png",
         width: 1200,
         height: 600,
         type: "image/png",
@@ -45,7 +46,7 @@ export const metadata: Metadata = {
     description:
       "Experience the future of SocialFi on Monad, where vines is alive, decentralized finance meets social engagement for secure, rewarding, and interactive community-driven experiences",
     images: {
-      url: "./public/banner/banner.png",
+      url: "https://chuckle.life/banner/banner.png",
       width: 1200,
       height: 600,
       type: "image/png",
